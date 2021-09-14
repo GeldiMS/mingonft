@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Button, Card } from "react-bootstrap";
-import { mingos } from "./mingos.js";
 
 class ImageContainer extends Component {
   render() {
