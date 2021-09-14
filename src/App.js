@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "orange" }}>
+    <div style={{ backgroundColor: "#46726B" }}>
       <Gallery />;
     </div>
   );
