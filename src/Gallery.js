@@ -1,7 +1,10 @@
 import React, { Component } from "react";
-import { Button } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import ImageContainer from "./ImageContainer";
 import { mingos } from "./mingos";
+import twitterIcon from "./twitterIcon.png";
+import discordIcon from "./discordIcon.png";
+import randGalleryIcon from "./randGalleryIcon.png";
 
 class Gallery extends Component {
   //   state = {
@@ -16,27 +19,20 @@ class Gallery extends Component {
     return (
       <div>
         <div style={{ marginLeft: "50px", marginBottom: "50px" }}>
-          <Button
-            href="https://twitter.com/MingoNFTs"
-            variant="primary"
-            onClick={() => this.setRare()}
-          >
-            Twitter
-          </Button>
-          <Button
-            href="https://discord.gg/bvTZUD8mc9"
-            variant="dark"
-            onClick={() => this.setRare()}
-          >
-            Discord
-          </Button>
-          <Button
-            href="https://www.randgallery.com/algo-collection/?address=MINGOOD72RIIAOGO7GQWOTENVV3FJPBRBPRWXBINAX45XH6WZSE2MVLUVM"
-            variant="success"
-            onClick={() => this.setRare()}
-          >
-            Rand Gallery
-          </Button>
+          <a href="https://twitter.com/MingoNFTs">
+            <Image width="50px" src={twitterIcon} />
+          </a>
+          <a href="https://discord.gg/bvTZUD8mc9">
+            <Image width="50px" src={discordIcon} />
+          </a>
+          <a href="https://www.randgallery.com/algo-collection/?address=MINGOOD72RIIAOGO7GQWOTENVV3FJPBRBPRWXBINAX45XH6WZSE2MVLUVM">
+            <Image
+              width="50px"
+              height="50px"
+              style={{ margin: "10px" }}
+              src={randGalleryIcon}
+            />
+          </a>
         </div>
         <div
           style={{
