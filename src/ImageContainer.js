@@ -17,13 +17,13 @@ class ImageContainer extends Component {
             <Card.Title>{this.props.title}</Card.Title>
             {this.props.rarity === "Original" && <h2>{this.props.rarity}</h2>}
             {this.props.rarity === "Rare" && (
-              <h2 style={{ color: "lightBlue" }}>{this.props.rarity}</h2>
+              <h2 style={{ color: "green" }}>{this.props.rarity}</h2>
             )}
             {this.props.rarity === "Super Rare" && (
-              <h2 style={{ color: "#6DABC4" }}>{this.props.rarity}</h2>
+              <h2 style={{ color: "darkblue" }}>{this.props.rarity}</h2>
             )}
             {this.props.rarity === "Limited Edition" && (
-              <h2 style={{ color: "#B19DE5" }}>{this.props.rarity}</h2>
+              <h2 style={{ color: "orange" }}>{this.props.rarity}</h2>
             )}
             {this.props.rarity === "Unique" && (
               <h2 style={{ color: "purple" }}>{this.props.rarity}</h2>
