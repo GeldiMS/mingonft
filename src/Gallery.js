@@ -19,7 +19,7 @@ class Gallery extends Component {
     return (
       <div>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <div style={{ padding: "20px" }}>
+          <div style={{ padding: "20px", paddingTop: "40px" }}>
             <Dropdown>
               <Dropdown.Toggle variant="info" id="dropdown-basic">
                 Show {this.state.rarity}
