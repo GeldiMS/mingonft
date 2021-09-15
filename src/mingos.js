@@ -32,53 +32,46 @@ import mingo306 from "./images/mingo306.png";
 
 export const mingos = [
   {
-    title: "301 - Mingonaut",
+    title: "U301 - Mingonaut",
 
     image: mingo301,
 
     rarity: "Unique"
   },
   {
-    title: "302 - Mingwarts",
+    title: "U302 - Mingwarts",
 
     image: mingo302,
 
     rarity: "Unique"
   },
   {
-    title: "303 - S. Mingholmes",
+    title: "U303 - S. Mingholmes",
 
     image: mingo303,
 
     rarity: "Unique"
   },
   {
-    title: "304 - Mingouis XIVth",
+    title: "U304 - Mingouis XIVth",
 
     image: mingo304,
 
     rarity: "Unique"
   },
   {
-    title: "305 - Julius Mingor",
+    title: "U305 - Julius Mingor",
 
     image: mingo305,
 
     rarity: "Unique"
   },
   {
-    title: "306 - PharahMingo",
+    title: "U306 - PharahMingo",
 
     image: mingo306,
 
     rarity: "Unique"
-  },
-  {
-    title: " Mingo 014",
-
-    image: mingo014,
-
-    rarity: "Original"
   },
   {
     title: " Mingo 023",
@@ -147,6 +140,13 @@ export const mingos = [
     title: " Mingo 006",
 
     image: mingo006,
+
+    rarity: "Original"
+  },
+  {
+    title: " Mingo 014",
+
+    image: mingo014,
 
     rarity: "Original"
   },
