@@ -5,7 +5,7 @@ import ReactGA from "react-ga";
 import { useEffect } from "react";
 
 function App() {
-  const TRACKING_ID = "UA-207750898";
+  const TRACKING_ID = "UA-UA-207768070-1";
 
   useEffect(() => {
     ReactGA.initialize(TRACKING_ID);
