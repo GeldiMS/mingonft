@@ -13,7 +13,7 @@ class ImageContainer extends Component {
           }}
         >
           <Card.Img variant="top" src={this.props.image} />
-          <Card.Body>
+          <Card.Body className="col">
             <Card.Title>{this.props.title}</Card.Title>
             {this.props.rarity === "Original" && <h2>{this.props.rarity}</h2>}
             {this.props.rarity === "Rare" && (
@@ -28,6 +28,13 @@ class ImageContainer extends Component {
             {this.props.rarity === "Unique" && (
               <h2 style={{ color: "purple" }}>{this.props.rarity}</h2>
             )}
+            <div style={{ justifyContent: "center" }}>
+              <Card.Img
+                style={{ paddingLeft: "150px", height: "50px", width: "220px" }}
+                variant="top"
+                src={this.props.soldIcon}
+              />
+            </div>
           </Card.Body>
         </Card>
       </div>

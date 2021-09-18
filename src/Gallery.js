@@ -6,6 +6,7 @@ import twitterIcon from "./twitterIcon.png";
 import discordIcon from "./discordIcon.png";
 import randGalleryIcon from "./randGalleryIcon.png";
 import instagramIcon from "./instagramIcon.png";
+import soldIcon from "./sold.png";
 
 class Gallery extends Component {
   state = {
@@ -88,6 +89,7 @@ class Gallery extends Component {
                     title={mingo.title}
                     image={mingo.image}
                     rarity={mingo.rarity}
+                    soldIcon={soldIcon}
                   />
                 </div>
               );
@@ -101,6 +103,7 @@ class Gallery extends Component {
                     title={mingo.title}
                     image={mingo.image}
                     rarity={mingo.rarity}
+                    sold={soldIcon}
                   />
                 </div>
               )

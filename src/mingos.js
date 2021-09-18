@@ -106,7 +106,7 @@ export const mingos = [
 
     image: mingo010,
 
-    rarity: "Original"
+    rarity: " Original"
   },
   {
     title: " Mingo 004",
