@@ -29,11 +29,17 @@ class ImageContainer extends Component {
               <h2 style={{ color: "purple" }}>{this.props.rarity}</h2>
             )}
             <div style={{ justifyContent: "center" }}>
-              <Card.Img
-                style={{ paddingLeft: "150px", height: "50px", width: "220px" }}
-                variant="top"
-                src={this.props.soldIcon}
-              />
+              {this.props.soldIcon && (
+                <Card.Img
+                  style={{
+                    paddingLeft: "150px",
+                    height: "50px",
+                    width: "220px"
+                  }}
+                  variant="top"
+                  src={this.props.soldIcon}
+                />
+              )}
             </div>
           </Card.Body>
         </Card>

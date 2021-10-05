@@ -89,7 +89,7 @@ class Gallery extends Component {
                     title={mingo.title}
                     image={mingo.image}
                     rarity={mingo.rarity}
-                    soldIcon={soldIcon}
+                    soldIcon={mingo.status === "sold" ? soldIcon : null}
                   />
                 </div>
               );
