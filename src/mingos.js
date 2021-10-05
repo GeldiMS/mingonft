@@ -448,7 +448,7 @@ export const mingos = [
 
     rarity: "Original",
 
-    status: "sold"
+    status: ""
   },
   {
     title: " Mingo 027",
@@ -646,7 +646,7 @@ export const mingos = [
 
     rarity: "Rare",
 
-    status: "sold"
+    status: ""
   },
   {
     title: " Mingo 039",
@@ -700,7 +700,7 @@ export const mingos = [
 
     rarity: "Original",
 
-    status: "sold"
+    status: ""
   },
   {
     title: " Mingo 032",
