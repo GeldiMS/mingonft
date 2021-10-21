@@ -79,8 +79,354 @@ import mingo036 from "./images/mingo036.png";
 import mingo037 from "./images/mingo037.png";
 import mingo035 from "./images/mingo035.png";
 import mingo034 from "./images/mingo034.png";
+import mingo099 from "./images/mingo099.png";
+import mingo098 from "./images/mingo098.png";
+import mingo100 from "./images/mingo100.png";
+import mingo088 from "./images/mingo088.png";
+import mingo077 from "./images/mingo077.png";
+import mingo076 from "./images/mingo076.png";
+import mingo089 from "./images/mingo089.png";
+import mingo084 from "./images/mingo084.png";
+import mingo090 from "./images/mingo090.png";
+import mingo091 from "./images/mingo091.png";
+import mingo085 from "./images/mingo085.png";
+import mingo093 from "./images/mingo093.png";
+import mingo087 from "./images/mingo087.png";
+import mingo078 from "./images/mingo078.png";
+import mingo079 from "./images/mingo079.png";
+import mingo086 from "./images/mingo086.png";
+import mingo092 from "./images/mingo092.png";
+import mingo096 from "./images/mingo096.png";
+import mingo082 from "./images/mingo082.png";
+import mingo083 from "./images/mingo083.png";
+import mingo097 from "./images/mingo097.png";
+import mingo081 from "./images/mingo081.png";
+import mingo095 from "./images/mingo095.png";
+import mingo094 from "./images/mingo094.png";
+import mingo080 from "./images/mingo080.png";
 
 export const mingos = [
+  {
+    title: "Mingo 091",
+    image: mingo091,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 084",
+    image: mingo084,
+    rarity: "rare",
+    status: ""
+  },
+  {
+    title: "Mingo 086",
+    image: mingo086,
+    rarity: "rare",
+    status: ""
+  },
+  {
+    title: "Mingo 092",
+    image: mingo092,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 090",
+    image: mingo090,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 089",
+    image: mingo089,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 087",
+    image: mingo087,
+    rarity: "rare",
+    status: ""
+  },
+  {
+    title: "Mingo 079",
+    image: mingo079,
+    rarity: "legendary",
+    status: ""
+  },
+  {
+    title: "Mingo 096",
+    image: mingo096,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 083",
+    image: mingo083,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 100",
+    image: mingo100,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 098",
+    image: mingo098,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 078",
+    image: mingo078,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 085",
+    image: mingo085,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 099",
+    image: mingo099,
+    rarity: "super rare",
+    status: ""
+  },
+  {
+    title: "Mingo 095",
+    image: mingo095,
+    rarity: "super rare",
+    status: ""
+  },
+  {
+    title: "Mingo 094",
+    image: mingo094,
+    rarity: "rare",
+    status: ""
+  },
+  {
+    title: "Mingo 077",
+    image: mingo077,
+    rarity: "rare",
+    status: ""
+  },
+  {
+    title: "Mingo 076",
+    image: mingo076,
+    rarity: "legendary",
+    status: ""
+  },
+  {
+    title: "Mingo 080",
+    image: mingo080,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 097",
+    image: mingo097,
+    rarity: "legendary",
+    status: ""
+  },
+  {
+    title: "Mingo 082",
+    image: mingo082,
+    rarity: "original",
+    status: ""
+  },
+  {
+    title: "Mingo 088",
+    image: mingo088,
+    rarity: "rare",
+    status: ""
+  },
+  {
+    title: "Mingo 081",
+    image: mingo081,
+    rarity: "super rare",
+    status: ""
+  },
+  {
+    title: "Mingo 093",
+    image: mingo093,
+    rarity: "super rare",
+    status: ""
+  },
+  {
+    title: " Mingo 052",
+
+    image: mingo052,
+
+    rarity: "Rare",
+
+    status: ""
+  },
+  {
+    title: " Mingo 039",
+
+    image: mingo039,
+
+    rarity: "Original",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 056",
+
+    image: mingo056,
+
+    rarity: "Rare",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 045",
+
+    image: mingo045,
+
+    rarity: "Original",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 061",
+
+    image: mingo061,
+
+    rarity: "Original",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 070",
+
+    image: mingo070,
+
+    rarity: "Rare",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 064",
+
+    image: mingo064,
+
+    rarity: "Original",
+
+    status: ""
+  },
+  {
+    title: " Mingo 032",
+
+    image: mingo032,
+
+    rarity: "Rare",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 059",
+
+    image: mingo059,
+
+    rarity: "Original",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 038",
+
+    image: mingo038,
+
+    rarity: "Original",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 040",
+
+    image: mingo040,
+
+    rarity: "Original",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 051",
+
+    image: mingo051,
+
+    rarity: "Rare",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 072",
+
+    image: mingo072,
+
+    rarity: "Super Rare",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 062",
+
+    image: mingo062,
+
+    rarity: "Original",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 044",
+
+    image: mingo044,
+
+    rarity: "Super Rare",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 046",
+
+    image: mingo046,
+
+    rarity: "Original",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 066",
+
+    image: mingo066,
+
+    rarity: "Limited Edition",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 033",
+
+    image: mingo033,
+
+    rarity: "Limited Edition",
+
+    status: "sold"
+  },
+  {
+    title: " Mingo 060",
+
+    image: mingo060,
+
+    rarity: "Original",
+
+    status: "sold"
+  },
   {
     title: "U301 - Mingonaut",
 
