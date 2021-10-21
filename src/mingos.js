@@ -151,7 +151,7 @@ export const mingos = [
   {
     title: "Mingo 079",
     image: mingo079,
-    rarity: "Legendary",
+    rarity: "Limited Edition",
     status: ""
   },
   {
@@ -217,7 +217,7 @@ export const mingos = [
   {
     title: "Mingo 076",
     image: mingo076,
-    rarity: "Legendary",
+    rarity: "Limited Edition",
     status: ""
   },
   {
@@ -229,7 +229,7 @@ export const mingos = [
   {
     title: "Mingo 097",
     image: mingo097,
-    rarity: "Legendary",
+    rarity: "Limited Edition",
     status: ""
   },
   {
