@@ -263,7 +263,7 @@ export const mingos = [
 
     rarity: "Rare",
 
-    status: ""
+    status: "sold"
   },
   {
     title: " Mingo 039",
