@@ -10,13 +10,12 @@ function App() {
   ReactGA.pageview("/");
 
   return (
-    <div>
+    <div className="row justify-content-center">
       <Image
         src={roadmap}
         style={{
-          width: "100%",
-          height: undefined,
-          aspectRatio: 1
+          width: "50%",
+          height: "50%"
         }}
       />
     </div>
