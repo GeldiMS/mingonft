@@ -22,7 +22,7 @@ class Gallery extends Component {
       <div>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <div style={{ padding: "20px", paddingTop: "40px" }}>
-            <Dropdown>
+            {/* <Dropdown>
               <Dropdown.Toggle variant="info" id="dropdown-basic">
                 Show {this.state.rarity}
               </Dropdown.Toggle>
@@ -44,7 +44,7 @@ class Gallery extends Component {
                   Unique
                 </Dropdown.Item>
               </Dropdown.Menu>
-            </Dropdown>
+            </Dropdown> */}
           </div>
 
           <div style={{ padding: "20px" }}>
@@ -88,7 +88,6 @@ class Gallery extends Component {
                   <ImageContainer
                     title={mingo.title}
                     image={mingo.image}
-                    rarity={mingo.rarity}
                     soldIcon={mingo.status === "sold" ? soldIcon : null}
                   />
                 </div>
@@ -102,7 +101,6 @@ class Gallery extends Component {
                   <ImageContainer
                     title={mingo.title}
                     image={mingo.image}
-                    rarity={mingo.rarity}
                     sold={soldIcon}
                   />
                 </div>
