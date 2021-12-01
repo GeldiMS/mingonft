@@ -23,7 +23,7 @@ class App extends React.Component {
   changePage() {
     if (this.state.buttonName === "Go to Mingos") {
       this.setState({ buttonName: "Go to Roadmap", currentPage: "mingos" });
-    } else if ((this.state.buttonName = "Go to Roadmap")) {
+    } else if (this.state.buttonName === "Go to Roadmap") {
       this.setState({ buttonName: "Go to Mingos", currentPage: "roadmap" });
     }
   }

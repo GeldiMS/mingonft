@@ -1,7 +1,6 @@
-import Gallery from "./Gallery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReactGA from "react-ga";
-import { Image, Button } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import roadmap from "./roadmap.png";
 
 function App() {
