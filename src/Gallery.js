@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Dropdown, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import ImageContainer from "./ImageContainer";
 import { mingos } from "./mingos";
 import twitterIcon from "./twitterIcon.png";
